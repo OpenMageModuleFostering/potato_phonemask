@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Potato_PhoneMask>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Potato_PhoneMask>
+    </modules>
+</config>

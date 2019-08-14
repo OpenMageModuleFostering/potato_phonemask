@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Potato_PhoneMask",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Phone Mask is a simple Magento extension that helps customers to input phone number easier at checkout. Auto-Formatted phone numbers always.",
+    "authors": [
+    {
+        "name": "PotatoCommerce",
+        "email": "potatocommerce@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

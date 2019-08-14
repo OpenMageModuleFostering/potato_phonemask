@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Potato_PhoneMask>
+            <version>1.0.0</version>
+        </Potato_PhoneMask>
+    </modules>
+    <global>
+        <blocks>
+            <po_phonemask>
+                <class>Potato_PhoneMask_Block</class>
+            </po_phonemask>
+        </blocks>
+        <helpers>
+            <po_phonemask>
+                <class>Potato_PhoneMask_Helper</class>
+            </po_phonemask>
+        </helpers>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Potato_PhoneMask>
+                    <files>
+                        <default>Potato_PhoneMask.csv</default>
+                    </files>
+                </Potato_PhoneMask>
+            </modules>
+        </translate>
+    </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <po_phonemask module="Potato_PhoneMask">
+                    <file>po_phonemask.xml</file>
+                </po_phonemask>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Potato_PhoneMask>
+                    <files>
+                        <default>Potato_PhoneMask.csv</default>
+                    </files>
+                </Potato_PhoneMask>
+            </modules>
+        </translate>
+    </frontend>
+    <default>
+        <po_phonemask>
+            <general>
+                <is_enabled>0</is_enabled>
+                <mask>(___) ___-____</mask>
+            </general>
+        </po_phonemask>
+    </default>
+</config>

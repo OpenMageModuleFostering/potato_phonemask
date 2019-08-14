@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action ifconfig="po_phonemask/general/is_enabled" method="addJs"><script>po_phonemask/PhoneNumberMask.js</script></action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="po_phonemask/mask" name="po_phonemask.mask" template="potato_phonemask/mask.phtml"/>
+        </reference>
+    </default>
+</layout>

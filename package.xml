@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+    <name>Potato_PhoneMask</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Phone Mask is a simple Magento extension that helps customers to input phone number easier at checkout. Auto-Formatted phone numbers always.</summary>
+    <description>&lt;p&gt;Phone Mask is a simple Magento extension that helps customers to input phone number easier at checkout. Auto-Formatted phone numbers. Your customers don't have to input parentheses, spaces and dashes anymore.&lt;/p&gt;&#xD;
+&lt;p&gt;No need to modify templates. Javascript only - the extension does not use any additional libraries.&lt;br /&gt;Mask is defined by store administrator, that governs what a user is allowed to enter in as input. It can be said to be a template, or set format that entered data must conform to, mainly used for the purposes of data integrity by preventing transcription errors.&lt;/p&gt;&#xD;
+&lt;p&gt;e.g. When entering a phone number on a data capture form, in the format &lt;strong&gt;"(___) ___ - ____"&lt;/strong&gt; the area code brackets, the space between the number and the area code will automatically be placed in.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&#xD;
+&lt;h3&gt;Features&lt;/h3&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Simplifies Magento checkout.&lt;/strong&gt;&amp;nbsp;Customer don't have to input parentheses, spaces and dashes.&lt;/li&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;Mainly used for the purposes of data integrity by preventing transcription errors.&lt;/strong&gt; All phone numbers will be of the same format. Say goodbye to obscurity.&lt;/li&gt;&#xD;
+&lt;li&gt;Lifetime free support, bugfixes and updates&lt;/li&gt;&#xD;
+&lt;li&gt;Installation service included&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p style="display: block; max-width: 391px; margin-left: auto; margin-right: auto;"&gt;&lt;img style="box-shadow: #888888 1px 1px 3px 1px; display: block; margin-left: auto; margin-right: auto;" title="Phone Mask Magento Extension - in action" src="http://potatocommerce.com/media/animated-image-phone-mask-magento-extension.gif" alt="Phone Mask  Magento Extension" width="100%" height="auto" /&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p style="display: block; max-width: 795px; margin-left: auto; margin-right: auto;"&gt;&lt;a href="http://potatocommerce.com/about-us/"&gt;&lt;img title="Click to learn more" src="http://potatocommerce.com/media/why-potatocommerce.png" alt="PotatoCommerce - Magento Extensions" width="100%" height="auto" /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    <notes>+ Phone mask at checkout&#xD;
++ Customers don't have to input parentheses, spaces and dashes anymore</notes>
+    <authors><author><name>PotatoCommerce</name><user>potatocommerce</user><email>potatocommerce@gmail.com</email></author></authors>
+    <date>2015-05-28</date>
+    <time>20:28:40</time>
+    <contents><target name="magecommunity"><dir name="Potato"><dir name="PhoneMask"><dir name="Block"><file name="Mask.php" hash="117b507c7bfd255ef07e50f648713b70"/></dir><dir name="Helper"><file name="Config.php" hash="5900d28017b784efe41399c4805979f1"/><file name="Data.php" hash="d0bbab12ced81d145fe67a8c33db16ea"/></dir><dir name="etc"><file name="adminhtml.xml" hash="bed30896474dc0301b188c41948dd48c"/><file name="config.xml" hash="915cd5e308fede70b6c1861e9a548e8f"/><file name="system.xml" hash="a0192ae661c318f52e7aa0719085b0cd"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="po_phonemask.xml" hash="c4b83b00290c1ee1125230777041f189"/></dir><dir name="template"><dir name="potato_phonemask"><file name="mask.phtml" hash="edc4a564b3eab919ea026238fc0ae75d"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Potato_PhoneMask.xml" hash="45a4483489af419011365df7b77bb4fd"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Potato_PhoneMask.csv" hash="417a58c5be932f737b5dd6e5b80279d3"/></dir></target><target name="mageweb"><dir name="js"><dir name="po_phonemask"><file name="PhoneNumberMask.js" hash="7ecf59c4821d98dd372d1988519fb168"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

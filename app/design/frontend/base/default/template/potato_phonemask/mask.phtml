@@ -1,0 +1,16 @@
+<?php /* @var $this Potato_PhoneMask_Block_Mask */ ?>
+<?php if ($this->canShow()):?>
+    <script type="text/javascript">
+        //<![CDATA[
+            if ($('billing:telephone')) {
+                new PhoneNumberMask('billing:telephone', '<?php echo $this->getMask()?>');
+            }
+            if ($('shipping:telephone')) {
+                new PhoneNumberMask('shipping:telephone', '<?php echo $this->getMask()?>');
+            }
+            if ($('telephone')) {
+                new PhoneNumberMask('telephone', '<?php echo $this->getMask()?>');
+            }
+        //]]>
+    </script>
+<?php endif;?>

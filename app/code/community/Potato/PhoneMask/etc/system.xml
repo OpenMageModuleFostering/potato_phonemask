@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <po_core translate="label" module="po_phonemask">
+            <label>POTATOCOMMERCE</label>
+            <class>po_core</class>
+            <sort_order>300</sort_order>
+        </po_core>
+    </tabs>
+    <sections>
+        <po_phonemask translate="label" module="po_phonemask">
+            <label>Phone Mask</label>
+            <tab>po_core</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>99998</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <is_enabled translate="label">
+                            <label>Enable extension</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </is_enabled>
+                        <mask translate="label comment">
+                            <label>Phone mask</label>
+                            <comment><![CDATA[<b>Example:</b> (___) ___-____<br>Where underscore is a digit.]]></comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </mask>
+                    </fields>
+                </general>
+            </groups>
+        </po_phonemask>
+    </sections>
+</config>
